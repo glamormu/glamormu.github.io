@@ -1,0 +1,113 @@
+a:link{
+    text-decoration: none;
+    color:#f8f8f2;
+}
+a:visited{
+    text-decoration: none;
+    color:#f8f8f2;
+}
+a:hover{
+    text-decoration: none;
+    color:#f8f8f2;
+}
+a:active{
+    text-decoration: none;
+    color:#f8f8f2;
+}
+#backgroundContainer{
+    background-color: #4e4237;
+
+}
+#video{
+    width:100%;
+    height:100%;
+    z-index:1000;
+    margin-left: -8px;
+    margin-top: -8px;
+    position:fixed;
+}
+#top-bar{
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color:#382618;
+    position:relative;
+    width:1300px;
+    height:40px;
+
+}
+#top-head{
+    margin-top: 5px;
+    margin-left: 130px;
+}
+#top-navigation{
+    margin-left: 300px;
+    margin-top: -28px;
+}
+
+.top-inner{
+    margin-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+#exit{
+    margin-left: 300px;
+}
+
+#music{
+
+
+}
+#layout-head{
+    margin-left: -8px;
+
+    position:absolute;
+    width: 1300px;
+    height: 390px;
+    background-image: url("4.jpg");
+    background-repeat:no-repeat ;
+    z-index: -100;
+}
+#next{
+    position: absolute;
+    margin-top: 320px;
+}
+#photo{
+    width:160px;
+    height:160px;
+    margin-left:120px;
+    background-image: url("有马公生.jpg");
+    position:absolute;
+    z-index: 100;
+}
+#layout {
+    position: relative;
+    margin-top: 70px;
+    margin-left: -20px;
+    width: 1312px;
+    height: 40px;
+    background-color: #382618;
+}
+#content{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #ffe5c1;
+    height:500px;
+}
+#dropdown{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+#dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#382618;
+}
+#dropdown:hover #dropdown-content {
+    display: block;
+
+}
+.story{
+    padding-top: 50px;
+    margin-left: 100px;
+}
